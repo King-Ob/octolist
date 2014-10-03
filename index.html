@@ -13,12 +13,31 @@
             <h1>OctoList</h1>
             <h3>Catchy slogan</h3>
         </div>
-        <div class="cart"></div>
+        <div class="cart">
+            <p class="item-count">0 Items in Cart</p>
+        </div>
     </div>
 
     <div class="main">
         <div class="nav-left"></div>
-        <div class="search"></div>
+        <div class="search-container">
+            <form action="#">
+                <!-- roughly emulating amazon's searchbar -->
+                <div class="search-top">
+                    <label>
+                        <select class="search-selector" name="selector">
+                            <option value="all" selected="selected">All</option>
+                            <option value="movies">Movies</option>
+                            <option value="electronics">Electronics</option>
+                        </select>
+                    </label>
+                    <!-- placeholder attr is HTML5 only -->
+                    <input type="text" placeholder="Search...">
+                    <input type="button" value="Search">
+                </div>
+                <div class="search-popular"></div>
+            </form>
+        </div>
         <div class="content"></div>
     </div>
 
