@@ -1,38 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 /* Header */
 
 .header {
     width: 100%;
     height: 65px;
-    border-bottom: solid black 1px;
     margin-bottom: 5px;
+    background-color: #363636;
 }
 
 .title {
     float: left;
+    font-family: verdana, sans-serif;
 }
 
 .title h1, h3 {
     margin: 0 5px;
+    font-weight: normal;
+}
+
+.title h1 {
+    color: #6cc6ff;
+}
+
+.title h3 {
+    color: #bcc4cc;
 }
 
 .cart {
     float: right;
-    border-left: 1px dotted gray;
+    border-left: 1px solid #bcc4cc;
     height: 100%;
     padding: 0 20px;
+    color: #bcc4cc;
 }
 
 /* Search Bar */
 
 .search-container {
-    border: 1px solid pink;
 }
 
 .search-top {
 }
 
+#search-selector {
+    padding: 4px;
+    border: 1px solid gray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
 #search-textbox {
-    width: auto;
+    position: relative;
+    left: -8px;
+    width: 400px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+#search-button {
+    position: relative;
+    left: -15px;
+    padding: 5px;
+    background-color: #99ccff;
+    border: 1px solid gray;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .search-popular ul {
@@ -77,7 +113,6 @@
 
 .content {
     width: 100%;
-    border: 1px solid green;
 }
 
 /* Footer */
@@ -85,6 +120,8 @@
 .footer {
     clear: both;
     width: 100%;
-    height: 80px;
-    border: 1px solid blue;
+    height: 40px;
+    background-color: #363636;
+    color: #bcc4cc;
+
 }
