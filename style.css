@@ -4,6 +4,7 @@
     width: 100%;
     height: 65px;
     border-bottom: solid black 1px;
+    margin-bottom: 5px;
 }
 
 .title {
@@ -11,19 +12,23 @@
 }
 
 .title h1, h3 {
-    margin: 0px 5px;
+    margin: 0 5px;
 }
 
 .cart {
     float: right;
     border-left: 1px dotted gray;
     height: 100%;
-    padding: 0px 20px;
+    padding: 0 20px;
 }
 
 /* Search Bar */
 
 .search-container {
+    border: 1px solid pink;
+}
+
+.search-top {
 }
 
 #search-textbox {
@@ -40,16 +45,22 @@
     display: inline;
 }
 
+.search-popular a {
+    text-decoration: none;
+    padding: 0 5px;
+}
+
 /* Navigation */
 
 .nav-left {
     float: left;
+    width: 100px;
 }
 
 .nav-left ul {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px 10px;
+    margin: 0;
+    padding: 0 10px;
     border: 1px solid gray;
 }
 
@@ -60,7 +71,13 @@
 /* Content */
 
 .main {
-    float: left;
+    margin-left: 100px;
+    padding-left: 5px;
+}
+
+.content {
+    width: 100%;
+    border: 1px solid green;
 }
 
 /* Footer */
@@ -69,4 +86,5 @@
     clear: both;
     width: 100%;
     height: 80px;
+    border: 1px solid blue;
 }
