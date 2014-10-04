@@ -2,8 +2,8 @@
 
 .header {
     width: 100%;
-    height: 80px;
-    border: solid black 1px;  /* borders for easy testing */
+    height: 65px;
+    border-bottom: solid black 1px;
 }
 
 .title {
@@ -23,6 +23,23 @@
 
 /* Search Bar */
 
+.search-container {
+}
+
+#search-textbox {
+    width: auto;
+}
+
+.search-popular ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.search-popular li {
+    display: inline;
+}
+
 /* Navigation */
 
 .nav-left {
@@ -41,6 +58,10 @@
 }
 
 /* Content */
+
+.main {
+    float: left;
+}
 
 /* Footer */
 
