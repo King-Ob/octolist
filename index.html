@@ -13,6 +13,32 @@
             <h1>OctoList</h1>
             <h3>Catchy slogan</h3>
         </div>
+        <div class="search-container">
+            <form action="#">
+                <div class="search-top">
+                    <label>
+                        <select id="search-selector" name="selector">
+                            <option value="all" selected="selected">All</option>
+                            <option value="movies">Movies</option>
+                            <option value="electronics">Electronics</option>
+                        </select>
+                    </label>
+                    <!-- placeholder attr is HTML5 only -->
+                    <input type="text" placeholder="Search..." id="search-textbox">
+                    <input type="button" value="Search" id="search-button">
+                </div>
+            </form>
+            <div class="search-popular">
+                <ul>
+                    <li class="popular-label">Trending:</li>
+                    <li class="popular-list-item"><a href="#">Search 1</a></li>
+                    <li class="popular-list-item"><a href="#">Search 2</a></li>
+                    <li class="popular-list-item"><a href="#">Search 3</a></li>
+                    <li class="popular-list-item"><a href="#">Search 4</a></li>
+                    <li class="popular-list-item"><a href="#">Search 5</a></li>
+                </ul>
+            </div>
+        </div>
         <div class="cart">
             <p class="item-count">0 Items in Cart</p>
         </div>
@@ -32,32 +58,7 @@
         </div>
 
         <div class="main">
-            <div class="search-container">
-                <form action="#">
-                    <div class="search-top">
-                        <label>
-                            <select id="search-selector" name="selector">
-                                <option value="all" selected="selected">All</option>
-                                <option value="movies">Movies</option>
-                                <option value="electronics">Electronics</option>
-                            </select>
-                        </label>
-                        <!-- placeholder attr is HTML5 only -->
-                        <input type="text" placeholder="Search..." id="search-textbox">
-                        <input type="button" value="Search" id="search-button">
-                    </div>
-                </form>
-                <div class="search-popular">
-                    <ul>
-                        <li class="popular-label">Popular:</li>
-                        <li class="popular-list-item"><a href="#">Search 1</a></li>
-                        <li class="popular-list-item"><a href="#">Search 2</a></li>
-                        <li class="popular-list-item"><a href="#">Search 3</a></li>
-                        <li class="popular-list-item"><a href="#">Search 4</a></li>
-                        <li class="popular-list-item"><a href="#">Search 5</a></li>
-                    </ul>
-                </div>
-            </div>
+
             <div class="content"></div>
         </div>
     </div>
