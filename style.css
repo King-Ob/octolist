@@ -10,11 +10,11 @@ body {
     height: 65px;
     margin-bottom: 5px;
     background-color: #363636;
+    font-family: verdana, sans-serif;
 }
 
 .title {
     float: left;
-    font-family: verdana, sans-serif;
 }
 
 .title h1, h3 {
@@ -32,10 +32,13 @@ body {
 
 .cart {
     float: right;
-    border-left: 1px solid #bcc4cc;
+    border-left: 2px solid #bcc4cc;
     height: 100%;
     padding: 0 20px;
-    color: #bcc4cc;
+    color: #dce4ec;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #5b5d5e;
 }
 
 /* Search Bar */
@@ -73,7 +76,8 @@ body {
 }
 
 .search-popular {
-
+    font-size: 10pt;
+    margin-left: 5px;
 }
 
 .search-popular ul {
@@ -91,13 +95,16 @@ body {
 .search-popular a {
     text-decoration: none;
     padding: 2px 5px;
+    color: black;
 }
 
 .search-popular a:hover {
-    background-color: #e6e6e6;
+    background-color: #a5d5ff;
+    border-bottom: 1px solid #49b8ff;
 }
 
 .popular-list-item {
+    background-color: #d2ebf3;
 }
 
 /* Navigation */
@@ -105,28 +112,35 @@ body {
 .nav-left {
     float: left;
     width: 100px;
-    position: relative;
 }
 
 .nav-left ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0 10px;
     border: 1px solid gray;
+    background-color: #d2ebf3;
+    padding-left: 0;
+    margin: 0;
 }
 
 .nav-left a {
     text-decoration: none;
+    color: black;
+    display: block;
+    padding-left: 5px;
+}
+
+.nav-left a:hover {
+    background-color: #a5d5ff;
 }
 
 /* Content */
 
-.main {
+.main {  /* area to the right of the navbar (contains search and content) */
     margin-left: 100px;
     padding-left: 5px;
 }
 
-.main-wrapper {
+.main-wrapper {  /* area between the header and the footer */
     overflow: auto;
 }
 
@@ -142,4 +156,5 @@ body {
     background-color: #363636;
     color: #bcc4cc;
     margin-top: 5px;
+    font-family: verdana, sans-serif;
 }
