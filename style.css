@@ -71,6 +71,10 @@ body {
     border-bottom-right-radius: 5px;
 }
 
+.search-popular {
+
+}
+
 .search-popular ul {
     list-style-type: none;
     margin: 0;
@@ -79,11 +83,20 @@ body {
 
 .search-popular li {
     display: inline;
+    padding: 2px 0;
+    margin-right: -4px;
 }
 
 .search-popular a {
     text-decoration: none;
-    padding: 0 5px;
+    padding: 2px 5px;
+}
+
+.search-popular a:hover {
+    background-color: #e6e6e6;
+}
+
+.popular-list-item {
 }
 
 /* Navigation */
