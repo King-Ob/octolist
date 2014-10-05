@@ -42,6 +42,10 @@ body {
     background-color: #5b5d5e;
 }
 
+.cart:hover {
+    background-color: #818384;
+}
+
 /* Search Bar */
 
 .search-container {
@@ -84,8 +88,6 @@ body {
     margin-left: 3px;
     padding: 3px;
     margin-top: -2px;
-    /*border-bottom-left-radius: 5px;*/
-    /*border-bottom-right-radius: 5px;*/
 }
 
 .search-popular ul {
