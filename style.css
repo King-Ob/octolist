@@ -39,11 +39,11 @@ body {
     color: #dce4ec;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background-color: #5b5d5e;
+    background-color: #3f668b;
 }
 
 .cart:hover {
-    background-color: #818384;
+    background-color: #244256;
 }
 
 /* Search Bar */
@@ -81,6 +81,7 @@ body {
     border: 1px solid gray;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    cursor: pointer;
 }
 
 .search-popular {
@@ -110,7 +111,8 @@ body {
 }
 
 .search-popular a:hover {
-    background-color: #a5d5ff;
+    background-color: #427ea4;
+    color: white;
     border-bottom: 1px solid #49b8ff;
 }
 
@@ -119,7 +121,7 @@ body {
 }
 
 .popular-list-item {
-    background-color: #d2ebf3;
+    background-color: #afe5ff;
 }
 
 .popular-more a {
@@ -171,7 +173,7 @@ body {
     padding-left: 5px;
 }
 
-.main-wrapper {  /* area between the header and the footer */
+.main-wrapper {  /* area between header and footer */
     overflow: auto;
 }
 
