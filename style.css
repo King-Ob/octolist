@@ -11,6 +11,7 @@ body {
     margin-bottom: 5px;
     background-color: #363636;
     font-family: verdana, sans-serif;
+    width: 100%;
 }
 
 .title {
@@ -199,9 +200,13 @@ span.cart-count {
     background-color: #363636;
     color: #d8e1e9;
     margin-top: 5px;
-    padding: 5px;
     font-family: verdana, sans-serif;
     font-size: 12px;
+    width: 100%;
+}
+
+.footer-text {
+    padding: 5px; /* TODO: putting this padding in the .footer div causes footer to be wider than header */
 }
 
 .footer p {
