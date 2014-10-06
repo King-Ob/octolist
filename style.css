@@ -47,8 +47,14 @@ body {
     background-color: #244256;
 }
 
-p.item-count {
-    margin: 20px 0;
+a#cart-link {
+    text-decoration: none;
+    color: #dce4ec;
+    display: block;
+    padding: 20px 0;
+}
+
+span.cart-count {
 }
 
 /* Search Bar */
