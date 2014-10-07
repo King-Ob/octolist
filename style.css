@@ -383,6 +383,39 @@ h2.item-name {
     border: 2px solid #808080;
 }
 
+/* Cart Page */
+
+.cart-title {
+    margin: 0;
+    color: #666666;
+}
+
+.cart-footer {
+    margin-right: 10px;
+}
+
+.cart-subtotal {
+    text-align: right;
+}
+
+.cart-subtotal-value {
+    font-weight: bold;
+}
+
+.checkout-button {
+    float: right;
+    padding: 10px 20px;
+    margin: 5px 0;
+    background-color: #ffd966;
+    border: 2px solid #b8b8b8;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.checkout-button:hover {
+    border: 2px solid #808080;
+}
+
 /* Footer */
 
 .footer {
