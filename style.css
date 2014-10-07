@@ -17,6 +17,7 @@ body {
 
 .header a {
     text-decoration: none;
+    color: inherit; /* use h1 and h3 colors defined below */
 }
 
 .logo {
