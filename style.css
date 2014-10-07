@@ -177,7 +177,7 @@ span.cart-count {
     padding-left: 5px;
     padding-top: 1px;
     padding-bottom: 1px;
-    border-right: 4px solid #a8d5f3;
+    border-right: 4px solid #bcc4cc;
 }
 
 .nav-left a:hover {
@@ -187,7 +187,7 @@ span.cart-count {
 
 /* Content */
 
-.main {  /* area to the right of the navbar (redundant now that search is in header?)*/
+.content {  /* area to the right of the navbar*/
     margin-left: 100px;
     padding-left: 5px;
 }
@@ -196,8 +196,45 @@ span.cart-count {
     overflow: auto;
 }
 
-.content {
+/* Metro tiles adapted from
+   http://mrbool.com/creating-a-metro-style-menu-in-html-and-css/26266 */
+
+.sales-row {
+    display: table;
+    margin-bottom: 4px;
+}
+
+.sales-cell {
+    float: left;
+    width: 97px;
+    height: 97px;
+    background-color: #b8def3;
+    border: 3px solid #b8def3;
+    margin-right: 4px;
+    padding: 2px;
+}
+
+.sales-cell-wide {
+    width: 208px;
+}
+
+.sales-cell:hover {
+    border: 3px solid #49b8ff;
+}
+
+.sales-cell a {
+    display: block;
     width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.sales-title {
+    color: #1e3e56;
+    font-family: verdana, sans-serif;
+    margin: 0;
+    font-weight: normal;
+    font-size: 30pt;
 }
 
 /* Footer */
