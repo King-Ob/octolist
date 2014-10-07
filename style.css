@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: verdana, sans-serif;
 }
 
 /* Header */
@@ -160,7 +161,7 @@ span.cart-count {
 
 .nav-left {
     float: left;
-    width: 100px;
+    width: 150px;
 }
 
 .nav-left ul {
@@ -188,7 +189,7 @@ span.cart-count {
 /* Content */
 
 .content {  /* area to the right of the navbar*/
-    margin-left: 100px;
+    margin-left: 150px;
     padding-left: 5px;
 }
 
@@ -198,6 +199,10 @@ span.cart-count {
 
 /* Metro tiles adapted from
    http://mrbool.com/creating-a-metro-style-menu-in-html-and-css/26266 */
+
+.sales-container {
+    min-width: 555px; /* each column + padding is 107px */
+}
 
 .sales-row {
     display: table;
